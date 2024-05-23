@@ -1,21 +1,4 @@
-Skip to content
- 
-Search…
-All gists
-Back to GitHub
-@Pawandeep-prog
-Pawandeep-prog/automated_mediaplayer.py
-Created 2 years ago • Report abuse
-Code
-Revisions
-1
-Stars
-6
-Forks
-1
-Clone this repository at &lt;script src=&quot;https://gist.github.com/Pawandeep-prog/54d90d9876a3d44b8550cd497603329b.js&quot;&gt;&lt;/script&gt;
-<script src="https://gist.github.com/Pawandeep-prog/54d90d9876a3d44b8550cd497603329b.js"></script>
-automated_mediaplayer.py
+
 import cv2 
 import mediapipe as mp
 import pyautogui
