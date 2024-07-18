@@ -1,0 +1,30 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Gesture Controller</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Hand Gesture Controller</h1>
+        <div class="instructions">
+            <p>Perform hand gestures to control:</p>
+            <ul>
+                <li>1 Finger - Right Arrow</li>
+                <li>2 Fingers - Left Arrow</li>
+                <li>3 Fingers - Up Arrow</li>
+                <li>4 Fingers - Down Arrow</li>
+                <li>5 Fingers - Space Bar</li>
+            </ul>
+        </div>
+        <div class="video-container">
+            <video id="video" playsinline autoplay muted></video>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
